@@ -4,6 +4,7 @@ import "./styles.css";
 import { useDetectOutsideClick } from "./useDetectOusideClick";
 import imgPerfil from '../../assets/icon-seta.svg';
 import imgphoto from '../../assets/perfil.png';
+import React from "react";
 
 
 export default function Perfil() {

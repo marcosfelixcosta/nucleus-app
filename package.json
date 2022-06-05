@@ -5,7 +5,7 @@
   "author": "Marcos Felix",
   "license": "MIT",
   "engines": {
- 
+    "npm": "8.1.2"
   },
   "dependencies": {
     "@hookform/error-message": "^2.0.0",
@@ -42,7 +42,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-   "postinstall":"tsc"
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
      
   },
   "eslintConfig": {
