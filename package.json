@@ -5,8 +5,7 @@
   "author": "Marcos Felix",
   "license": "MIT",
   "engines": {
-    "node": "16.13.2",
-    "npm": "8.1.2"
+ 
   },
   "dependencies": {
     "@hookform/error-message": "^2.0.0",
