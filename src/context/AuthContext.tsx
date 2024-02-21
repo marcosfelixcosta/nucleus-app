@@ -13,7 +13,6 @@ interface SignInCredentials {
   senha:string;
 }
 
-
 interface AuthContextData {
   nome: object;
   singIn(credential: SignInCredentials): Promise<void>;
@@ -48,8 +47,6 @@ interface AuthContextData {
   localStorage.setItem('@Nucleus:nome', JSON.stringify(nome));
 
   setData({token, nome});
-
-
 
  },[]);
 
